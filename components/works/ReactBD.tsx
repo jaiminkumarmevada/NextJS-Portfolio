@@ -10,35 +10,26 @@ const ReactBD = () => {
       className="w-full"
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-        Engineer
-        <span className="text-textGreen tracking-wide">@ReactBD</span>
+        Frontend developer
+        <span className="text-textGreen tracking-wide">@OctaNet Services Pvt Ltd.</span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
-        Jan 2023 - present
+        Jan 2024 - Fab 2024
       </p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Write modern, performant, maintainable code for a diverse array of
-          client and internal projects
+       Improved Skills in : HTML,CSS & Javascript
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Work with a variety of different languages, platforms, frameworks, and
-          content management systems such as JavaScript, TypeScript, Gatsby,
-          React, Craft, WordPress, Prismic, and Netlify
+          During my internship at Tech Octanet Services, I significantly enhanced my skills in HTML, CSS, and JavaScript. I worked on creating and refining user interfaces, where I applied advanced HTML and CSS techniques to develop responsive and visually appealing designs. Additionally, I utilized JavaScript to implement interactive features and improve functionality.
         </li>
-        <li className="text-base flex gap-2 text-textDark">
-          <span className="text-textGreen mt-1">
-            <TiArrowForward />
-          </span>
-          Communicate with multi-disciplinary teams of engineers, designers,
-          producers, and clients on a daily basis
-        </li>
+        
       </ul>
     </motion.div>
   );
