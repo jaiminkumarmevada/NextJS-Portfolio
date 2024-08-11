@@ -14,9 +14,9 @@ const Contact = () => {
       I’m currently on the lookout for exciting internship opportunities to further develop my skills and gain hands-on experience. My inbox is always open, so if you have any opportunities or just want to connect, feel free to reach out. I’ll do my best to get back to you as soon as possible!
       </p>
 
-      <a href="mailto:noor.jsdivs@gmail.com">
+      <a href="mailto:jaiminkumarmevada@gmail.com">
         <button className="w-40 h-14 border border-textGreen mt-6 font-titleFont text-sm text-textGreen tracking-wider rounded-md hover:bg-hoverColor duration-300">
-          Say Hello
+          Connect via Email
         </button>
       </a>
     </section>
