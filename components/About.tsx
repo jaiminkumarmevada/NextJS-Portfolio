@@ -13,83 +13,29 @@ const About = () => {
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-          Hello! I'm Jaimin Mevada, a backend developer passionate about building robust and scalable applications using .NET technologies. My journey into development began with exploring logic-building in C#, which quickly led me to dive deeper into backend systems and databases.
+            Hello! I&apos;m Jaimin Mevada, a backend developer passionate about building robust and scalable applications using .NET technologies. My journey into development began with exploring logic-building in C#, which quickly led me to dive deeper into backend systems and databases.
           </p>
           <p>
-          {" "}
             <span className="text-textGreen">
-             
-            </span>
-            {" "}
-            <span className="text-textGreen">
-            I'm always exploring new technologies and enjoy contributing to innovative projects.
+              I&apos;m always exploring new technologies and enjoy contributing to innovative projects.
             </span>
           </p>
           <p>
-          Currently working with a focus on full-stack development, I actively use React.js, Angular, and .NET to build efficient and user-friendly applications.
+            Currently working with a focus on full-stack development, I actively use React.js, Angular, and .NET to build efficient and user-friendly applications.
           </p>
           <p>Here are a few technologies I have been working with recently:</p>
           <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              ReactJS
-            
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              .NET Framework
-            </li><li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              MS SQL Server
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              C++
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              Visual Studio
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              C#
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              Git
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              OOPs
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              Github
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              Javascript
-            </li>
+            {[
+              "ReactJS", ".NET Framework", "MS SQL Server", "C++", "Visual Studio",
+              "C#", "Git", "OOPs", "Github", "Javascript"
+            ].map((tech, index) => (
+              <li key={index} className="flex items-center gap-2">
+                <span className="text-textGreen">
+                  <AiFillThunderbolt />
+                </span>
+                {tech}
+              </li>
+            ))}
           </ul>
         </div>
         <div className="w-full lgl:w-1/3 h-80 relative group">
