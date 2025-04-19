@@ -30,7 +30,7 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
-       Blending the latest technologies with a passion for innovation, I craft dynamic web solutions at Soar Technologies—building sleek React.js frontends and robust .NET backends. Focused on clean code and seamless user experiences, I bring ideas to life with precision.{" "}
+       Blending the latest technologies with a passion for innovation, I craft dynamic web solutions at S. Technologies—building sleek React.js frontends and robust .NET backends. Focused on clean code and seamless user experiences, I bring ideas to life with precision.{" "}
         <a href="https://www.noormohammad.live/" target="_blank">
           {" "}
           <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
