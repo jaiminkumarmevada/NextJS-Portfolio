@@ -10,24 +10,24 @@ const ReactBD = () => {
       className="w-full"
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-        Frontend developer
-        <span className="text-textGreen tracking-wide">@OctaNet Services Pvt Ltd.</span>
+        B.Tech in Information Technology
+        <span className="text-textGreen tracking-wide">@Sankalchand Patel College of Engineering</span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
-        Jan 2024 - Fab 2024
+        Oct 2021 - Apr 2025
       </p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-       Improved Skills in : HTML,CSS & Javascript
+          I have completed my B.Tech with an 8.0 CGPA.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          During my internship at Tech Octanet Services, I significantly enhanced my skills in HTML, CSS, and JavaScript. I worked on creating and refining user interfaces, where I applied advanced HTML and CSS techniques to develop responsive and visually appealing designs. Additionally, I utilized JavaScript to implement interactive features and improve functionality.
+          During my college journey, I focused on developing moral values, enhancing English proficiency, and mastering basic computer programming concepts. These experiences have shaped my character, improved my communication skills, and provided a strong foundation for my technical growth.
         </li>
         
       </ul>

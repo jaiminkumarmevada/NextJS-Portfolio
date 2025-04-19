@@ -55,7 +55,7 @@ const Experience = () => {
       id="experience"
       className="max-w-containerxs mx-auto py-10 lgl:py-24 px-4"
     >
-      <SectionTitle title=" React skill-building platforms " titleNo="02" />
+      <SectionTitle title=" Level Up Platforms " titleNo="02" />
       <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
         <ul className="md:w-32 flex flex-col">
           <li
@@ -66,7 +66,7 @@ const Experience = () => {
                 : "border-l-hoverColor text-textDark"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
-            Intership
+            Education
           </li>
           <li
             onClick={handleGoogle}
@@ -86,7 +86,7 @@ const Experience = () => {
                 : "border-l-hoverColor text-textDark"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
-          MNC Certification Course
+          Intership
           </li>
           <li
             onClick={handleSplash}
@@ -96,7 +96,7 @@ const Experience = () => {
                 : "border-l-hoverColor text-textDark"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
-            Youtube Course
+            Projects
           </li>
           <li
             onClick={handleAmazon}
@@ -106,7 +106,7 @@ const Experience = () => {
                 : "border-l-hoverColor text-textDark"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
-            Projects
+            Experiance
           </li>
         </ul>
         {workReactbd && <ReactBD />}

@@ -10,11 +10,11 @@ const Apple = () => {
       className="w-full"
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-         Complete ReactJS course
-        <span className="text-textGreen tracking-wide">@infosys</span>
+         .NET Trainee
+        <span className="text-textGreen tracking-wide">@Corextrime Consulting Service</span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
-        Jan 2021 - Dec 2021
+        Dec 2024 - Apr 2025
       </p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">
@@ -27,13 +27,13 @@ const Apple = () => {
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Completed the Infosys Springboard EdTech Certification Course, which provided in-depth training on industry-relevant technologies and skills. The program included production-level assignments and an online assessment to validate proficiency in applying concepts to real-world scenarios. 
+          During my internship at Corextrime-Ahemedabad, I honed my skills in logic building using C, C++, and JavaScript. This experience laid the groundwork for my transition into .NET development, where I further refined my programming abilities and tackled real-world challenges.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          This comprehensive learning experience significantly enhanced my skills and confidence in using JavaScript for creating dynamic and interactive web applications.
+          Under the expert guidance of trainer Abhishek Vyas, with 12 years of teaching experience at CoreXtrime, I learned .NET, gaining valuable knowledge and skills for my career development.
         </li>
       </ul>
     </motion.div>

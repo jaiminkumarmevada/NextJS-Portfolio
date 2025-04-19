@@ -10,11 +10,11 @@ const Splash = () => {
       className="w-full"
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-        ReactJS
-        <span className="text-textGreen tracking-wide">@Youtube_Playlists</span>
+        ReactJS development
+        <span className="text-textGreen tracking-wide"></span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
-        Jan 2021 - Dec 2021
+       
       </p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">
@@ -23,7 +23,7 @@ const Splash = () => {
           </span>
 
           <span className="text-textGreen mt-1">
-          Hitesh Choudhary’s “Chai aur Code” React JS YouTube Playlist </span>
+         Google Gemini Replica </span>
 
 
           
@@ -33,10 +33,9 @@ const Splash = () => {
           <span className="text-textGreen mt-1">
             
           </span>
-          <p style={{ marginLeft: '17px' }}>Hitesh Choudhary’s “Chai aur Code” React JS YouTube playlist is an exceptional resource that has significantly enhanced my development skills. This comprehensive series covers everything from React fundamentals to advanced concepts, making it an invaluable tool for any aspiring React developer.</p>
+          <p style={{ marginLeft: '17px' }}>The Google Gemini replica project aims to fetch data using Gemini API and present it in a user-friendly manner. It focuses on creating a seamless experience by displaying data efficiently.</p>
         </li>
-
-
+{/*
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
@@ -89,6 +88,7 @@ const Splash = () => {
           corporis necessitatibus? Pariatur voluptas ad, at et hic deserunt
           sequi?
         </li>
+        */}
       </ul>
     </motion.div>
   );

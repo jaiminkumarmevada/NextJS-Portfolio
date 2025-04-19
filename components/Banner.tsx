@@ -21,7 +21,7 @@ const Banner = () => {
       >
         Jaimin Mevada.
         <span className="text-textDark mt-2 lgl:mt-4">
-        Build UIs with React Magic.
+        Learning .NET to Build Backends.
         </span>
       </motion.h1>
       <motion.p
@@ -30,11 +30,11 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
-       As a passionate frontend developer, I’m a recent graduate with hands-on experience in React. I’ve successfully worked on several impactful projects, demonstrating a solid understanding of React's core principles. My journey has equipped me with the skills to build dynamic, responsive UIs, and I’m eager to leverage my knowledge in new and challenging projects.{" "}
+       Blending the latest technologies with a passion for innovation, I craft dynamic web solutions at Soar Technologies—building sleek React.js frontends and robust .NET backends. Focused on clean code and seamless user experiences, I bring ideas to life with precision.{" "}
         <a href="https://www.noormohammad.live/" target="_blank">
           {" "}
           <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
-            Learn more
+            .
             <span className="absolute w-full h-[1px] bg-textGreen left-0 bottom-1 -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500"></span>
           </span>
         </a>
@@ -46,7 +46,7 @@ const Banner = () => {
           transition={{ duration: 0.5, delay: 0.9 }}
           className="w-52 h-14 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300"
         >
-          Check out my project!
+          Check out my Linkdin !
         </motion.button>
       </a>
     </section>

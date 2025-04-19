@@ -55,7 +55,7 @@ const Navbar = () => {
         {/* ============ Logo End here ============== */}
         {/* ============ ListItem Start here ======== */}
         <div className="hidden mdl:inline-flex items-center gap-7">
-          <ul className="flex text-[13px] gap-7">
+          <ul className="flex text-[13px] gap-4">
             <Link
               className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
               href="#home"
@@ -108,8 +108,7 @@ const Navbar = () => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.1, delay: 0.3 }}
               >
-                <span className="text-textGreen">03.</span>
-                Project
+                
               </motion.li>
             </Link>
             <Link
@@ -122,12 +121,12 @@ const Navbar = () => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.1, delay: 0.4 }}
               >
-                <span className="text-textGreen">04.</span>
+                <span className="text-textGreen">03.</span>
                 Contact
               </motion.li>
             </Link>
           </ul>
-          <a href="/assets/noor_resume.pdf" target="_blank">
+          <a href="/assets/jaimin_resume.pdf" target="_blank">
             <motion.button
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -207,20 +206,7 @@ const Navbar = () => {
                       Experience
                     </motion.li>
                   </Link>
-                  <Link
-                    className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
-                    href="#project"
-                    onClick={handleScroll}
-                  >
-                    <motion.li
-                      initial={{ x: 20, opacity: 0 }}
-                      animate={{ x: 0, opacity: 1 }}
-                      transition={{ duration: 0.2, delay: 0.4, ease: "easeIn" }}
-                    >
-                      <span className="text-textGreen">03.</span>
-                      Project
-                    </motion.li>
-                  </Link>
+                
                   <Link
                     className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
                     href="#contact"
@@ -231,12 +217,13 @@ const Navbar = () => {
                       animate={{ x: 0, opacity: 1 }}
                       transition={{ duration: 0.2, delay: 0.5, ease: "easeIn" }}
                     >
-                      <span className="text-textGreen">04.</span>
+                      <span className="text-textGreen">03.</span>
                       Contact
                     </motion.li>
                   </Link>
                 </ul>
-                <a href="/assets/noor_resume.pdf" target="_blank">
+                <a href="https://drive.google.com/file/d/1DynOnd-HEaG_74d8edoQywXBVI7y-U8Y/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+        
                   <motion.button
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -251,24 +238,15 @@ const Navbar = () => {
                     initial={{ y: 20, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ delay: 0.8, ease: "easeIn" }}
-                    href="https://github.com/noorjsdivs"
+                    href="https://github.com/jaiminkumarmevada"
                     target="_blank"
                   >
                     <span className="w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 hover:border-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
                       <TbBrandGithub />
                     </span>
                   </motion.a>
-                  <motion.a
-                    initial={{ y: 20, opacity: 0 }}
-                    animate={{ y: 0, opacity: 1 }}
-                    transition={{ delay: 0.85, ease: "easeIn" }}
-                    href="https://www.youtube.com/channel/UChkOsij0dhgft0GhHRauOAA"
-                    target="_blank"
-                  >
-                    <span className="w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 hover:border-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
-                      <SlSocialYoutube />
-                    </span>
-                  </motion.a>
+                  
+                  
                   <motion.a
                     initial={{ y: 20, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}

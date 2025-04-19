@@ -13,20 +13,20 @@ const About = () => {
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-          Hello! I'm Jaimin Mevada, a frontend developer with a passion for crafting engaging web experiences. My journey in web development began with experimenting on custom Tumblr themes, which sparked my love for HTML & CSS.
+          Hello! I'm Jaimin Mevada, a backend developer passionate about building robust and scalable applications using .NET technologies. My journey into development began with exploring logic-building in C#, which quickly led me to dive deeper into backend systems and databases.
           </p>
           <p>
-          Since then, I've gained valuable experience working on diverse projects, from small startups to larger organizations. My focus has been on building reusable UI components with React, and I’m driven by the challenge of creating intuitive, responsive designs.{" "}
+          {" "}
             <span className="text-textGreen">
              
             </span>
             {" "}
             <span className="text-textGreen">
-             & looking for React based frontend intership!
+            I'm always exploring new technologies and enjoy contributing to innovative projects.
             </span>
           </p>
           <p>
-          I'm excited to continue exploring new technologies and contributing to innovative projects.
+          Currently working with a focus on full-stack development, I actively use React.js, Angular, and .NET to build efficient and user-friendly applications.
           </p>
           <p>Here are a few technologies I have been working with recently:</p>
           <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
@@ -34,32 +34,37 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              HTML5
+              ReactJS
             
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              Tailwindcss
+              .NET Framework
+            </li><li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              MS SQL Server
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              CSS
+              C++
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              Bootstrap
+              Visual Studio
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              JavaScript (ES6+)
+              C#
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
@@ -71,7 +76,7 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              React
+              OOPs
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
@@ -83,7 +88,7 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              MongoDB
+              Javascript
             </li>
           </ul>
         </div>
